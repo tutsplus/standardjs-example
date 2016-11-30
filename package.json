@@ -1,0 +1,18 @@
+{
+  "name": "standardjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "non-standard.js",
+  "scripts": {
+    "test": "standard --verbose --env=jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
+  "standard": {
+  "ignore": [ "app/non-standard.js" ],
+  "globals": [ "libraryGlobal" ]
+  }
+}
